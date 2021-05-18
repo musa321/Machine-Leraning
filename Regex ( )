@@ -1,0 +1,4 @@
+import re
+def firstlast(name):
+    pattern=re.compile("(^[\w]*)(?:.* )([\w]*$)") 
+    return (pattern.findall(name))
